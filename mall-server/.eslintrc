@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:eslint/recommended",
+    "eslint-config-egg"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "commonjs": true
+  }
+}
